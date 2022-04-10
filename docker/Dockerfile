@@ -1,6 +1,7 @@
+
 FROM ros:melodic
 
-# Install rvizweb
+# Install rvizweb.
 WORKDIR /rvizweb_ws
 ARG rvizweb_branch=master
 RUN git clone https://github.com/osrf/rvizweb/ -b ${rvizweb_branch} src/rvizweb
