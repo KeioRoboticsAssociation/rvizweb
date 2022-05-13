@@ -1,4 +1,3 @@
-
 FROM ros:melodic
 
 # Install rvizweb.
