@@ -54,12 +54,12 @@
   </group>
 
   <!-- Interactive markers -->
-  <group if="$(arg interactive_markers)">
+  <!-- <group if="$(arg interactive_markers)">
     <node pkg="interactive_marker_proxy" type="proxy" name="interactive_marker_proxy">
       <remap from="target_frame" to="$(arg interactive_markers_target_frame)" />
       <remap from="topic_ns" to="$(arg interactive_markers_topic)" />
     </node>
-  </group>
+  </group> -->
 
   <!-- Depth cloud -->
   <group if="$(arg depth_cloud)">
